@@ -5,12 +5,12 @@ timeline:
   type: full-time
   roles:
   - name: Software Developer
-    startDate: August 2008
-    endDate: July 2013
+    startDate: 2008-08
+    endDate: 2013-07
   projects:
   - name: VX Producer
-    startData: August 2008
-    endDate: July 2013
+    startDate: 2008-08
+    endDate: 2013-07
     description: VX is a VoIP talkshow system. I wrote a Windows client for it, including audio playback, recording, and more.
     keywords:
     - C#
@@ -18,8 +18,8 @@ timeline:
     - Win32
     - WPF
   - name: Axia iProbe
-    startData: January 2010
-    endDate: July 2013
+    startDate: 2010-01
+    endDate: 2013-07
     description: An application that manages, configures, updates, and diagnoses embedded Linux devices on the LiveWire VoIP network.
     keywords:
     - VB.NET
@@ -29,18 +29,18 @@ timeline:
   type: full-time
   roles:
   - name: Junior Programmer
-    startDate: September 2013
-    endDate: September 2019
+    startDate: 2013-09
+    endDate: 2019-09
   - name: Programmer
-    startDate: September 2019
-    endDate: October 2021
+    startDate: 2019-09
+    endDate: 2021-10
   - name: Senior Programmer
-    startDate: October 2021
-    endDate: February 2024
+    startDate: 2021-10
+    endDate: 2024-02
   projects:
   - name: Champions of Anteria
-    startDate: September 2013
-    endDate: August 2016
+    startDate: 2013-09
+    endDate: 2016-08
     description: A top-down RTS-like game for PC in a bespoke engine. I worked on some of the tools for it as well as fixing bugs across the entire code base.
     keywords:
     - C#
@@ -49,16 +49,16 @@ timeline:
     - WPF
     - Win32
   - name: For Honor
-    startDate: May 2017
-    endDate: December 2018
+    startDate: 2017-05
+    endDate: 2018-12
     description: For Honor is a fighting game made with the Scimitar/Anvil engine. I worked on automated performance testing of the game for multi-GPU setups and helped migrate its UI to a new framework.
     keywords:
     - C#
     - C++
     - Win32
   - name: Assassin's Creed Nexus
-    startDate: October 2019
-    endDate: November 2023
+    startDate: 2019-10
+    endDate: 2023-11
     description: Assassin's Creed in VR, made with Unity. I worked on tools, optimizations, and read Unity's C++ source code to support C# programmers in writing more performant code.
     keywords:
     - C#
@@ -70,12 +70,12 @@ timeline:
   type: contract
   roles:
   - name: Senior Software Engineer
-    startDate: October 2024
-    endDate: April 2026
+    startDate: 2024-10
+    endDate: 2026-04
   projects:
   - name: Decentraland
-    startDate: October 2024
-    endDate: April 2026
+    startDate: 2024-10
+    endDate: 2026-04
     description: The main Decentraland client, based on the Unity game engine. Decentraland is an online virtual world. I worked on optimizations and automated performance testing. Implemented a custom terrain renderer.
     keywords:
     - C#
@@ -87,10 +87,12 @@ timeline:
   type: contract
   roles:
   - name: Programmer
-    startDate: August 2026
+    startDate: 2026-08
+    endDate: present
   projects:
   - name: Okeānija
-    startDate: August 2026
+    startDate: 2026-08
+    endDate: present
     description: A Farmville-like online web idle game with social elements. I do whatever is needed across the entire stack to keep the game running. It's a 15 year old codebase.
     keywords:
     - Haxe
@@ -101,12 +103,12 @@ timeline:
   type: hobby
   roles:
   - name: Lead Programmer
-    startDate: May 2018
-    endDate: February 2026
+    startDate: 2018-05
+    endDate: 2026-02
   projects:
   - name: Ashes of Equestria
-    startDate: May 2018
-    endDate: February 2026
+    startDate: 2018-05
+    endDate: 2026-02
     description: An open-world RPG similar to Bethesda's Fallout series, as a hobby project made with Unity. There are around 20 active contributors at any one time. I served as the project's lead programmer and technical director.
     keywords:
     - C#
