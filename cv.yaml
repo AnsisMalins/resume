@@ -1,7 +1,7 @@
 name: Ansis Māliņš
 email: ansis.malins@gmail.com
 timeline:
-- company: Axia Technologies
+- company: Axia Broadcast Technologies
   type: full-time
   roles:
   - name: Software Developer
@@ -11,20 +11,31 @@ timeline:
   - name: VX Producer
     startDate: 2008-08
     endDate: 2013-07
-    description: VX is a VoIP talkshow system. I wrote a Windows client for it, including audio playback, recording, and more.
+    description: |
+      VX is a VoIP talkshow system. VR Producer was a Windows client for it,
+      including audio playback, recording, and more.
     keywords:
     - C#
     - C++/CLI
     - Win32
     - WPF
+    contributions:
+    - Wrote the entire application from scratch.
+    - Implemented low latency audio streaming.
   - name: Axia iProbe
     startDate: 2010-01
     endDate: 2013-07
-    description: An application that manages, configures, updates, and diagnoses embedded Linux devices on the LiveWire VoIP network.
+    description: |
+      An application that manages, configures, updates, and diagnoses embedded
+      Linux devices on the LiveWire VoIP network.
+    url: https://www.telosalliance.com/consoles-audio-mixing/accessories/axia-iprobe-ip-audio-network-management-software
     keywords:
     - VB.NET
     - Win32
     - WinForms
+    contributions:
+    - Took over the maintenance thereof.
+    - Documented the firmware management protocol.
 - company: Ubisoft Düsseldorf
   type: full-time
   roles:
@@ -41,31 +52,52 @@ timeline:
   - name: Champions of Anteria
     startDate: 2013-09
     endDate: 2016-08
-    description: A top-down RTS-like game for PC in a bespoke engine. I worked on some of the tools for it as well as fixing bugs across the entire code base.
+    description: A top-down RTS-like game for Windows in a bespoke engine.
+    url: https://store.steampowered.com/app/374520/Champions_of_Anteria/
     keywords:
     - C#
     - C++
     - Lua
     - WPF
     - Win32
+    contributions:
+    - Took ownership of a WPF based game data editor.
+    - Improved editor performance by like hundredfold.
+    - Deduplicated localized strings and pruned unused ones.
+    - Implemented a subtitle system end editor for cutscenes.
+    - Implemented a custom tool to help diff game data
   - name: For Honor
     startDate: 2017-05
     endDate: 2018-12
-    description: For Honor is a fighting game made with the Scimitar/Anvil engine. I worked on automated performance testing of the game for multi-GPU setups and helped migrate its UI to a new framework.
+    description: |
+      For Honor is a fighting game made with the Scimitar/Anvil engine. I
+      worked on its Windows version post-launch.
+    url: https://store.steampowered.com/app/304390/FOR_HONOR/
     keywords:
     - C#
     - C++
     - Win32
-  - name: Assassin's Creed Nexus
+    contributions:
+    - Set up automated performance testing.
+    - Helped port the game's UI to a new framework.
+  - name: Assassin's Creed Nexus VR
     startDate: 2019-10
     endDate: 2023-11
-    description: Assassin's Creed in VR, made with Unity. I worked on tools, optimizations, and read Unity's C++ source code to support C# programmers in writing more performant code.
+    description: A complete AAA action game in mobile VR, made with Unity.
+    url: https://www.meta.com/experiences/assassins-creed-nexus-vr/5812519008825194/
     keywords:
     - C#
     - C++
     - Unity
     - VR
     - Android
+    contributions:
+    - Implemented parts of automated performance testing.
+    - Implemented parts of the climbing system.
+    - Implemented tools for environment artists and designers.
+    - Optimized build times.
+    - Reduced patch sizes by 10x.
+    - Studied Unity's C++ source code to support other programmers.
 - company: Decentraland
   type: contract
   roles:
@@ -76,15 +108,25 @@ timeline:
   - name: Decentraland
     startDate: 2024-10
     endDate: 2026-04
-    description: The main Decentraland client, based on the Unity game engine. Decentraland is an online virtual world. I worked on optimizations and automated performance testing. Implemented a custom terrain renderer.
+    description: |
+      The main Decentraland client, based on the Unity game engine.
+      Decentraland is an online virtual world.
+    url: https://decentraland.org/
     keywords:
     - C#
     - TypeScript
     - Rust
     - Unity
     - HLSL
+    - GitHub Actions
+    contributions:
+    - Implemented a custom terrain system.
+    - Implemented automated performance testing.
+    - Added features to the Tauri/Rust based game launcher.
+    - Helped content creators with performance.
+    - Maintained the game's JavaScript integration.
 - company: Draugiem Group
-  type: contract
+  type: full-time
   roles:
   - name: Programmer
     startDate: 2026-08
@@ -93,12 +135,20 @@ timeline:
   - name: Okeānija
     startDate: 2026-08
     endDate: present
-    description: A Farmville-like online web idle game with social elements. I do whatever is needed across the entire stack to keep the game running. It's a 15 year old codebase.
+    description: |
+      A Farmville-like online web idle game with social elements. It's a 15
+      year old codebase that began in Adobe Flash and PHP 5.
+    url: https://www.draugiem.lv/okeanija/
     keywords:
     - Haxe
     - PHP
     - JavaScript
     - MariaDB
+    contributions:
+    - Improved our ability to debug the whole system.
+    - Improved how changes reach the shared test environment.
+    #- Improved the game's frame rate by 25%.
+    #- Did the programming to launch the game on a new platform.
 - company: Overmare Studios
   type: hobby
   roles:
@@ -109,7 +159,12 @@ timeline:
   - name: Ashes of Equestria
     startDate: 2018-05
     endDate: 2026-02
-    description: An open-world RPG similar to Bethesda's Fallout series, as a hobby project made with Unity. There are around 20 active contributors at any one time. I served as the project's lead programmer and technical director.
+    description: |
+      An open-world RPG similar to Bethesda's Fallout series, as a hobby
+      project made with Unity. There are around 20 active contributors at any
+      one time. I served as the project's lead programmer and technical
+      director.
+    url: https://theovermare.com/
     keywords:
     - C#
     - C++
@@ -117,4 +172,18 @@ timeline:
     - Lua
     - Java
     - Unity
-    - Github Actions
+    - Jenkins
+    - GitHub Actions
+    contributions:
+    - Taught industry practices to a hobbyist team.
+    - Implemented CI, code review, Kanban, and more.
+    - Managed recruitment of new programmers.
+    - Represented the project at conventions.
+    - Migrated the project to Git (self hosted)
+    - Maintained the project's infrastructure
+    - Migrated the project to new Unity versions
+    - Implemented the narrative scripting system
+    - Implemented the AI system
+    - Implemented a new movement system
+    - Implemented countless optimizations
+    - Implemented automatic placeholder VA and lipsync
