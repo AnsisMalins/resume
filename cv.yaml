@@ -12,7 +12,7 @@ timeline:
     startDate: 2008-08
     endDate: 2013-07
     description: |
-      VX is a VoIP talkshow system. VR Producer was a Windows client for it,
+      VX is a VoIP talkshow system. VX Producer was a Windows client for it,
       including audio playback, recording, and more.
     keywords:
     - C#
@@ -35,7 +35,7 @@ timeline:
     - WinForms
     contributions:
     - Took over the maintenance thereof.
-    - Documented the firmware management protocol.
+    - Formalized the firmware management protocol.
 - company: Ubisoft Düsseldorf
   type: full-time
   roles:
@@ -62,15 +62,15 @@ timeline:
     - Win32
     contributions:
     - Took ownership of a WPF based game data editor.
-    - Improved editor performance by like hundredfold.
+    - Improved data editor performance by 10x.
     - Deduplicated localized strings and pruned unused ones.
-    - Implemented a subtitle system end editor for cutscenes.
-    - Implemented a custom tool to help diff game data
+    - Implemented a subtitle system and editor for cutscenes.
+    - Implemented a custom tool to help diff game data.
   - name: For Honor
     startDate: 2017-05
     endDate: 2018-12
     description: |
-      For Honor is a fighting game made with the Scimitar/Anvil engine. I
+      For Honor is a fighting game made with the Scimitar/Anvil game engine. I
       worked on its Windows version post-launch.
     url: https://store.steampowered.com/app/304390/FOR_HONOR/
     keywords:
@@ -144,6 +144,7 @@ timeline:
     - PHP
     - JavaScript
     - MariaDB
+    - Docker
     contributions:
     - Improved our ability to debug the whole system.
     - Improved how changes reach the shared test environment.
@@ -161,9 +162,8 @@ timeline:
     endDate: 2026-02
     description: |
       An open-world RPG similar to Bethesda's Fallout series, as a hobby
-      project made with Unity. There are around 20 active contributors at any
-      one time. I served as the project's lead programmer and technical
-      director.
+      project, made with Unity. There are around 20 active contributors at any
+      one time.
     url: https://theovermare.com/
     keywords:
     - C#
@@ -179,11 +179,12 @@ timeline:
     - Implemented CI, code review, Kanban, and more.
     - Managed recruitment of new programmers.
     - Represented the project at conventions.
-    - Migrated the project to Git (self hosted)
-    - Maintained the project's infrastructure
-    - Migrated the project to new Unity versions
-    - Implemented the narrative scripting system
-    - Implemented the AI system
-    - Implemented a new movement system
-    - Implemented countless optimizations
-    - Implemented automatic placeholder VA and lipsync
+    - Migrated the project to Git (self hosted).
+    - Maintained the project's infrastructure.
+    - Migrated the project to new Unity versions.
+    - Implemented the narrative scripting system.
+    - Implemented a new AI system.
+    - Implemented a new movement system.
+    - Implemented countless optimizations.
+    - Implemented automatic placeholder VA and lipsync.
+  
