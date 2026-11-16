@@ -2,7 +2,9 @@ name: Ansis Māliņš
 email: ansis.malins@gmail.com
 timeline:
 - company: Axia Broadcast Technologies
+  industry: radio broadcasting
   type: full-time
+  location: Riga, Latvia
   roles:
   - name: Software Developer
     startDate: 2008-08
@@ -21,7 +23,7 @@ timeline:
     - WPF
     contributions:
     - Wrote the entire application from scratch.
-    - Implemented low latency audio streaming.
+    - Implemented low latency audio streaming using WASAPI.
   - name: Axia iProbe
     startDate: 2010-01
     endDate: 2013-07
@@ -37,7 +39,9 @@ timeline:
     - Took over the maintenance thereof.
     - Formalized the firmware management protocol.
 - company: Ubisoft Düsseldorf
+  industry: computer games
   type: full-time
+  location: Düsseldorf, Germany
   roles:
   - name: Junior Programmer
     startDate: 2013-09
@@ -60,12 +64,13 @@ timeline:
     - Lua
     - WPF
     - Win32
+    - Perforce
     contributions:
     - Took ownership of a WPF based game data editor.
     - Improved data editor performance by 10x.
+    - Implemented a tool to find when a game data change was made using XPath.
     - Deduplicated localized strings and pruned unused ones.
     - Implemented a subtitle system and editor for cutscenes.
-    - Implemented a custom tool to help diff game data.
   - name: For Honor
     startDate: 2017-05
     endDate: 2018-12
@@ -78,7 +83,7 @@ timeline:
     - C++
     - Win32
     contributions:
-    - Set up automated performance testing.
+    - Set up automated performance testing of the game.
     - Helped port the game's UI to a new framework.
   - name: Assassin's Creed Nexus VR
     startDate: 2019-10
@@ -92,66 +97,15 @@ timeline:
     - VR
     - Android
     contributions:
-    - Implemented parts of automated performance testing.
-    - Implemented parts of the climbing system.
-    - Implemented tools for environment artists and designers.
-    - Optimized build times.
-    - Reduced patch sizes by 10x.
+    - Wrote a tool to find poorly performing assets and views.
+    - Wrote a custom collision detection system for climbing.
+    - Iterated on various tools for environment artists and designers.
+    - Optimized build times using the scriptable build pipeline.
+    - Reduced patch sizes by 10x by implementing diffable compression.
     - Studied Unity's C++ source code to support other programmers.
-- company: Decentraland
-  type: contract
-  roles:
-  - name: Senior Software Engineer
-    startDate: 2024-10
-    endDate: 2026-04
-  projects:
-  - name: Decentraland
-    startDate: 2024-10
-    endDate: 2026-04
-    description: |
-      The main Decentraland client, based on the Unity game engine.
-      Decentraland is an online virtual world.
-    url: https://decentraland.org/
-    keywords:
-    - C#
-    - TypeScript
-    - Rust
-    - Unity
-    - HLSL
-    - GitHub Actions
-    contributions:
-    - Implemented a custom terrain system.
-    - Implemented automated performance testing.
-    - Added features to the Tauri/Rust based game launcher.
-    - Helped content creators with performance.
-    - Maintained the game's JavaScript integration.
-- company: Draugiem Group
-  type: full-time
-  roles:
-  - name: Programmer
-    startDate: 2026-08
-    endDate: present
-  projects:
-  - name: Okeānija
-    startDate: 2026-08
-    endDate: present
-    description: |
-      A Farmville-like online web idle game with social elements. It's a 15
-      year old codebase that began in Adobe Flash and PHP 5.
-    url: https://www.draugiem.lv/okeanija/
-    keywords:
-    - Haxe
-    - PHP
-    - JavaScript
-    - MariaDB
-    - Docker
-    contributions:
-    - Improved our ability to debug the whole system.
-    - Improved how changes reach the shared test environment.
-    #- Improved the game's frame rate by 25%.
-    #- Did the programming to launch the game on a new platform.
 - company: Overmare Studios
   type: hobby
+  location: online
   roles:
   - name: Lead Programmer
     startDate: 2018-05
@@ -170,21 +124,83 @@ timeline:
     - C++
     - Python
     - Lua
-    - Java
     - Unity
+    - FMOD
     - Jenkins
+    - Mercurial
+    - Git
     - GitHub Actions
     contributions:
     - Taught industry practices to a hobbyist team.
-    - Implemented CI, code review, Kanban, and more.
+    - Instituted Kanban, code reviews, and more.
     - Managed recruitment of new programmers.
     - Represented the project at conventions.
-    - Migrated the project to Git (self hosted).
-    - Maintained the project's infrastructure.
+    - Owned the overall technical direction.
+    - Maintained infrastructure for a fully remote team.
+    - Set up automated builds and regular backups.
+    - Migrated the project (100 GB) to Git (self hosted).
     - Migrated the project to new Unity versions.
-    - Implemented the narrative scripting system.
-    - Implemented a new AI system.
-    - Implemented a new movement system.
-    - Implemented countless optimizations.
-    - Implemented automatic placeholder VA and lipsync.
-  
+    - Wrote a narrative scripting system.
+    - Wrote a planning based AI system.
+    - Wrote a player character movement controller.
+    - Wrote the character creation screen.
+    - Took ownership of the localization system.
+    - Owned the player character rig and animation controller.
+- company: Decentraland
+  industry: computer games
+  type: contract
+  location: online
+  roles:
+  - name: Senior Software Engineer
+    startDate: 2024-10
+    endDate: 2026-04
+  projects:
+  - name: Decentraland
+    startDate: 2024-10
+    endDate: 2026-04
+    description: |
+      The main Decentraland client, based on the Unity game engine.
+      Decentraland is an online virtual world.
+    url: https://decentraland.org/
+    keywords:
+    - C#
+    - C++
+    - TypeScript
+    - HLSL
+    - Rust
+    - Unity
+    - GitHub Actions
+    contributions:
+    - Implemented a custom terrain system.
+    - Implemented automated performance testing.
+    - Added features to the Tauri/Rust based game launcher.
+    - Helped content creators with performance.
+    - Maintained the game's JavaScript (V8) integration.
+- company: Draugiem Group
+  industry: social media
+  type: full-time
+  location: Riga, Latvia
+  roles:
+  - name: Programmer
+    startDate: 2026-08
+    endDate: present
+  projects:
+  - name: Okeānija
+    startDate: 2026-08
+    endDate: present
+    description: |
+      A Farmville-like online web idle game with social elements. It's a 15
+      year old codebase that began in Adobe Flash and PHP 5.
+    url: https://www.draugiem.lv/okeanija/
+    keywords:
+    - Haxe
+    - PHP
+    - JavaScript
+    - Node
+    - MariaDB
+    - Docker
+    contributions:
+    - Improved our ability to debug the game.
+    - Improved how changes reach the test environment.
+    - Helped launch the game on a new platform.
+    #- Improved the game's frame rate by 25%.
